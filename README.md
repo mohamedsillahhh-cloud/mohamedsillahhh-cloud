@@ -3,7 +3,7 @@
 🎯 Backend-focused developer with a passion for building
 real products that solve real problems.
 
-🇨🇻 From Cape Verde, based in Portugal.
+From Cape Verde, based in Portugal.
 
 ---
 
