@@ -1,4 +1,4 @@
-# Hi there 👋 I'm Mohamed Sillah
+# Hi there 👋 I'm Mohamed 
 
 🎯 Backend-focused developer with a passion for building
 real products that solve real problems.
