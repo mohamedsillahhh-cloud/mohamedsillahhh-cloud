@@ -1,7 +1,7 @@
 ![banner](https://i.pinimg.com/1200x/7b/87/1c/7b871cee4ff324b9cc17ea028b4074ce.jpg)
 # Hi there 👋 I'm Mohamed 
 
-🎯 Backend-focused developer with a passion for building
+🎯 Fullstack developer with a passion for building
 real products that solve real problems.
 
 From Cape Verde, based in Portugal.
