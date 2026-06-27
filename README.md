@@ -1,105 +1,147 @@
+<div align="center">
+
 ![banner](https://i.pinimg.com/1200x/7b/87/1c/7b871cee4ff324b9cc17ea028b4074ce.jpg)
-# Hi there 👋 I'm Mohamed 
 
-🎯 Fullstack developer with a passion for building
-real products that solve real problems.
+# Mohamed Sillah — Backend Developer
 
-From Cape Verde, based in Portugal.
+**Building real products that solve real problems. Based in Cape Verde. 🇨🇻**
 
----
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mohamed-sllh)
+[![Email](https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:mohamedsillahhh@gmail.com)
 
-## About Me
-
-- 🔧 I build web apps and REST APIs with Python & Flask
-- 🎨 Frontend when needed with TypeScript & React
-- 🗄️ PostgreSQL for databases and data modeling
-- 🚀 Supabase for modern backend infrastructure
-
-## What I've Built
-
-- 🏫 Institutional website + custom CMS for a public
-  technical school in Cape Verde *(live in production)*
-- 💼 DevFlow — personal freelance and finance manager
-  built with React + Supabase
-
-## Where I'm Going
-
-Building towards backend engineering at a
-European fintech. One project at a time.
-
-## Currently Learning
-- FastAPI
-- System design
-- English *(getting there 😄)*
+</div>
 
 ---
 
-## 🌐 Socials
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mohamed-sllh)
-[![Email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:mohamedsillahhh@gmail.com)
+## About
+
+Backend developer focused on Python, REST APIs, and AI integrations.  
+I build things end-to-end — from database schema to deployment — with a bias for clean architecture and systems that actually work in production.
+
+Currently finishing my degree in Cabo Verde. Open to backend engineering opportunities in Cape Verde and Europe.
 
 ---
 
-## 💻 Tech Stack
+## Projects
 
-### 🎨 Frontend
-![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
-![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
+### 💰 Finance Bot &nbsp; `private`
+> Personal finance assistant for Telegram — built for the Cape Verdean market
 
-### ⚙️ Backend
-![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
-![Flask](https://img.shields.io/badge/flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white)
-![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
+- Multi-model AI routing (Gemini · Groq · OpenRouter) with automatic fallback and circuit breaker
+- Natural language processing in Cape Verdean Portuguese — understands slang, local terms, and colloquial expressions
+- Regex fallback engine when all AI providers hit rate limits — bot never goes silent
+- Short-term memory, correction detection, follow-up questions, and inline keyboard clarification
+- Features: budgets, savings goals, installments, split expenses, recurring transactions, auto-save, OCR receipts
 
-### 🗄️ Databases
-![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)
-![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)
-
-### 🛠️ Tools & DevOps
-![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
-![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
-![Render](https://img.shields.io/badge/Render-%46E3B7.svg?style=for-the-badge&logo=render&logoColor=white)
-![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white)
----
-
-## 📊 GitHub Stats
-
-![](https://github-readme-stats.vercel.app/api?username=mohamedsillahhh-cloud&theme=dark&hide_border=true&include_all_commits=false&count_private=false)
-
-![](https://nirzak-streak-stats.vercel.app/?user=mohamedsillahhh-cloud&theme=dark&hide_border=true)
-
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=mohamedsillahhh-cloud&theme=dark&hide_border=true&include_all_commits=false&count_private=false&layout=compact)
+`Python 3.12` `python-telegram-bot` `PostgreSQL` `Gemini` `Groq` `OpenRouter` `pytest`
 
 ---
 
-## 🏆 GitHub Trophies
-![](https://github-profile-trophy.vercel.app/?username=mohamedsillahhh-cloud&theme=radical&no-frame=false&no-bg=true&margin-w=4)
+### 🏆 HackHub &nbsp; `public` &nbsp; `in development`
+> Open-source SaaS platform for hackathon management
+
+- Clean Architecture with JWT authentication, rate limiting, and multi-tenancy
+- Certificate generation, CSV/Excel export, real-time updates
+- Built solo from scratch — frontend and backend
+
+`FastAPI` `PostgreSQL` `Redis` `Next.js 14` `TypeScript` `Docker`
 
 ---
 
-### ✍️ Random Dev Quote
-![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark)
+### 🏫 School Website + CMS &nbsp; `private` &nbsp; [`live →`](https://etjv.onrender.com)
+> Institutional website with custom CMS for a public technical school in Cape Verde
+
+- Custom content management system built for non-technical staff
+- Live in production
+
+`Python` `Flask` `PostgreSQL` `Supabase`
 
 ---
 
-[![](https://visitcount.itsvg.in/api?id=mohamedsillahhh-cloud&icon=4&color=1)](https://visitcount.itsvg.in)
+### 💼 DevFlow &nbsp; `public`
+> Full-stack management dashboard for freelancers
 
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+- Web dashboard (React 19 + Vite + TypeScript) + native desktop client (PyQt6) sharing the same Supabase backend
+- Modules: projects & clients, finances, investments portfolio, project timer with billing estimate, executive KPI dashboard
+- Supabase Auth with email allowlist · Row Level Security on all tables · versioned SQL migrations
 
-<!--
-**mohamedsillahhh-cloud/mohamedsillahhh-cloud** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+`React 19` `TypeScript` `Vite` `Zod` `PyQt6` `Supabase` `Render`
 
-Here are some ideas to get you started:
+---
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## Tech Stack
+
+<table>
+  <tr>
+    <td><strong>Languages</strong></td>
+    <td>
+      <img src="https://img.shields.io/badge/Python-3670A0?style=flat-square&logo=python&logoColor=ffdd54"/>
+      <img src="https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white"/>
+      <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white"/>
+      <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white"/>
+    </td>
+  </tr>
+  <tr>
+    <td><strong>Backend</strong></td>
+    <td>
+      <img src="https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white"/>
+      <img src="https://img.shields.io/badge/FastAPI-005571?style=flat-square&logo=fastapi"/>
+      <img src="https://img.shields.io/badge/Node.js-6DA55F?style=flat-square&logo=node.js&logoColor=white"/>
+      <img src="https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white"/>
+      <img src="https://img.shields.io/badge/SQLite-07405e?style=flat-square&logo=sqlite&logoColor=white"/>
+      <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white"/>
+    </td>
+  </tr>
+  <tr>
+    <td><strong>AI & Bots</strong></td>
+    <td>
+      <img src="https://img.shields.io/badge/Gemini-4285F4?style=flat-square&logo=google&logoColor=white"/>
+      <img src="https://img.shields.io/badge/Groq-F55036?style=flat-square"/>
+      <img src="https://img.shields.io/badge/OpenRouter-000000?style=flat-square"/>
+      <img src="https://img.shields.io/badge/Telegram_Bot_API-2CA5E0?style=flat-square&logo=telegram&logoColor=white"/>
+    </td>
+  </tr>
+  <tr>
+    <td><strong>Frontend</strong></td>
+    <td>
+      <img src="https://img.shields.io/badge/React-20232a?style=flat-square&logo=react&logoColor=61DAFB"/>
+      <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js&logoColor=white"/>
+      <img src="https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white"/>
+      <img src="https://img.shields.io/badge/React_Router-CA4245?style=flat-square&logo=react-router&logoColor=white"/>
+    </td>
+  </tr>
+  <tr>
+    <td><strong>Infra & Tools</strong></td>
+    <td>
+      <img src="https://img.shields.io/badge/Docker-0db7ed?style=flat-square&logo=docker&logoColor=white"/>
+      <img src="https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white"/>
+      <img src="https://img.shields.io/badge/Render-46E3B7?style=flat-square&logo=render&logoColor=white"/>
+      <img src="https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white"/>
+      <img src="https://img.shields.io/badge/Git-F05033?style=flat-square&logo=git&logoColor=white"/>
+      <img src="https://img.shields.io/badge/GitHub-121011?style=flat-square&logo=github&logoColor=white"/>
+      <img src="https://img.shields.io/badge/pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white"/>
+    </td>
+  </tr>
+</table>
+
+---
+
+## GitHub Stats
+
+<div align="center">
+  <img height="160" src="https://github-readme-stats.shion.dev/api?username=mohamedsillahhh-cloud&theme=dark&hide_border=true&include_all_commits=true&count_private=true&show_icons=true" />
+  <img height="160" src="https://github-readme-stats.shion.dev/api/top-langs/?username=mohamedsillahhh-cloud&theme=dark&hide_border=true&include_all_commits=true&count_private=true&layout=compact" />
+</div>
+
+<div align="center">
+  <img src="https://streak-stats.demolab.com/?user=mohamedsillahhh-cloud&theme=dark&hide_border=true" />
+</div>
+
+---
+
+<div align="center">
+
+*Open to backend engineering opportunities in Cape Verde and Europe.*  
+[![LinkedIn](https://img.shields.io/badge/Let's_connect-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mohamed-sllh)
+
+</div>
