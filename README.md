@@ -4,7 +4,7 @@
 
 # Mohamed Sillah — Backend Developer
 
-**Building real products that solve real problems. Based in Cape Verde. 🇨🇻**
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&pause=1000&color=0077B5&center=true&vCenter=true&width=500&lines=Building+real+products+that+solve+real+problems.;Python+%7C+REST+APIs+%7C+AI+Integrations;Based+in+Cape+Verde+%F0%9F%87%A8%F0%9F%87%BB)](https://git.io/typing-svg)
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mohamed-sllh)
 [![Email](https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:mohamedsillahhh@gmail.com)
@@ -15,10 +15,14 @@
 
 ## About
 
+<img align="right" width="200" style="border-radius:12px" src="https://i.pinimg.com/736x/d4/10/ac/d410acd9734cb0715cfa969de285ba14.jpg" />
+
 Backend developer focused on Python, REST APIs, and AI integrations.  
 I build things end-to-end — from database schema to deployment — with a bias for clean architecture and systems that actually work in production.
 
 Currently finishing my degree in Cabo Verde. Open to backend engineering opportunities in Cape Verde and Europe.
+
+<br clear="right"/>
 
 ---
 
@@ -70,6 +74,8 @@ Currently finishing my degree in Cabo Verde. Open to backend engineering opportu
 ---
 
 ## Tech Stack
+
+<img align="right" width="200" style="border-radius:12px" src="https://i.pinimg.com/736x/1f/28/ed/1f28ed565650b82ef74e0e432002c201.jpg" />
 
 <table>
   <tr>
