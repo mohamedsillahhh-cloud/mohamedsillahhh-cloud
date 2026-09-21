@@ -21,7 +21,7 @@
 
 Self-taught developer focused on Python backends, REST APIs and payments-adjacent problems. I build end-to-end, from database schema to deployment, with a bias for clean architecture, tests and systems that keep working after launch.
 
-Most of my work is for Cape Verdean users and communities: finance tools, remittance data, school and gaming platforms.
+Most of my work is for Cape Verdean users and institutions: finance tools, school platforms and community software.
 
 |  |  |
 |---|---|
@@ -35,99 +35,100 @@ Most of my work is for Cape Verdean users and communities: finance tools, remitt
 
 ## 🚀 Projects
 
-> Click a project to expand it.
+### 💰 Finance Bot
+![private](https://img.shields.io/badge/repo-private-6e7681?style=flat-square) ![main](https://img.shields.io/badge/main_project-0077B5?style=flat-square) ![telegram](https://img.shields.io/badge/platform-telegram-2CA5E0?style=flat-square)
 
-### Fintech & Backend
-
-<details open>
-<summary><b>💸 Comparador de Remessas</b> &nbsp;·&nbsp; <code>public</code> &nbsp;·&nbsp; how much actually arrives in Cape Verde, EUR → CVE</summary>
-
-<br>
-
-- Ranks providers by amount received, exposing the hidden cost in the exchange rate against the official EUR/CVE peg
-- Daily automated quote collection via GitHub Actions; providers without public data verified manually through an admin panel
-- Quote history, staleness warnings, interpolation between reference amounts
-- Backend and frontend tests, Alembic migrations, containerized deploy
-
-`FastAPI` `PostgreSQL` `SQLAlchemy` `Alembic` `React` `TypeScript` `Docker` `pytest` `Vitest`
-
-[![Repo](https://img.shields.io/badge/View_repository-181717?style=flat-square&logo=github)](https://github.com/mohamedsillahhh-cloud/Comparador-de-remessas)
-
-</details>
+Personal finance assistant on Telegram, built for the Cape Verdean market. Users log and manage their money by chatting in natural language, including Cape Verdean Portuguese, and the bot keeps working even when every AI provider is down.
 
 <details>
-<summary><b>💰 Finance Bot</b> &nbsp;·&nbsp; <code>private</code> &nbsp;·&nbsp; Telegram finance assistant for the Cape Verdean market</summary>
+<summary><b>Detalhes</b></summary>
 
 <br>
 
-- Multi-model AI routing (Gemini, Groq, OpenRouter) with automatic fallback and circuit breaker
-- Understands Cape Verdean Portuguese, including slang and local terms
-- Regex fallback engine when every AI provider is rate-limited, so the bot never goes silent
-- Budgets, savings goals, installments, split expenses, recurring transactions, OCR receipts
+#### What it does
+
+- **Natural language in Cape Verdean Portuguese:** understands slang, local terms and colloquial expressions, not just textbook Portuguese
+- **Conversational, not command-driven:** short-term memory, follow-up questions when information is missing, correction detection, and inline keyboards to clarify ambiguous input
+- **Full personal finance toolkit:** budgets, savings goals, auto-save, installments, split expenses and recurring transactions
+- **Receipt scanning:** OCR to read receipts from photos
+
+#### Under the hood
+
+- **Multi-provider AI routing** across Gemini, Groq and OpenRouter, with automatic fallback and a circuit breaker to stop hammering a failing provider
+- **Regex fallback engine** that takes over when all providers hit rate limits, so the bot never goes silent
+- **PostgreSQL persistence**, after a migration to a production-grade database
+- **Security hardening** pass on the codebase
+- **Automated tests** with pytest
+
+#### Stack
 
 `Python 3.12` `python-telegram-bot` `PostgreSQL` `Gemini` `Groq` `OpenRouter` `pytest`
 
 </details>
 
+<br>
+
+### 🏫 School Website + CMS
+![private](https://img.shields.io/badge/repo-private-6e7681?style=flat-square) ![live](https://img.shields.io/badge/status-live_in_production-46E3B7?style=flat-square)
+
+Institutional website with a custom content management system for a public technical school in Cape Verde, built so the school's own staff can keep it up to date without a developer.
+
 <details>
-<summary><b>🏆 HackHub</b> &nbsp;·&nbsp; <code>public</code> &nbsp;·&nbsp; <code>in development</code> &nbsp;·&nbsp; open-source hackathon management platform</summary>
+<summary><b>Detalhes</b></summary>
 
 <br>
 
-- Clean Architecture with JWT authentication, rate limiting and multi-tenancy
-- Certificate generation, CSV/Excel export, real-time updates
-- Built solo, frontend and backend
+#### What it does
 
-`FastAPI` `PostgreSQL` `Redis` `Next.js 14` `TypeScript` `Docker`
+- **Public institutional website** for a public technical school in Cape Verde, live in production
+- **Custom CMS** designed for non-technical staff: publish and edit content through an admin interface instead of touching code
+- Built end to end and presented to the school
 
-[![Repo](https://img.shields.io/badge/View_repository-181717?style=flat-square&logo=github)](https://github.com/mohamedsillahhh-cloud/hackhub-platform)
+#### Under the hood
+
+- **Flask backend** with PostgreSQL for content storage
+- **Supabase** in the stack for managed services
+- **Deployed on Render** and running in production
+
+#### Stack
+
+`Python` `Flask` `PostgreSQL` `Supabase` `Render`
+
+[![Live](https://img.shields.io/badge/Live_site-46E3B7?style=flat-square&logo=render&logoColor=black)](https://etjv.onrender.com)
 
 </details>
 
-### Products
+<br>
+
+### 💼 DevFlow
+![public](https://img.shields.io/badge/repo-public-2ea44f?style=flat-square) ![web+desktop](https://img.shields.io/badge/platform-web_%2B_desktop-3ECF8E?style=flat-square)
+
+Full-stack management dashboard for freelancers: projects, clients, finances and investments in one place, with a web app and a native desktop client sharing the same backend.
 
 <details>
-<summary><b>💼 DevFlow</b> &nbsp;·&nbsp; <code>public</code> &nbsp;·&nbsp; management dashboard for freelancers</summary>
+<summary><b>Detalhes</b></summary>
 
 <br>
 
-- React 19 + Vite + TypeScript web dashboard and a native PyQt6 desktop client sharing one Supabase backend
-- Projects and clients, finances, investments, project timer with billing estimate, KPI dashboard
-- Supabase Auth with email allowlist, Row Level Security on all tables, versioned SQL migrations
+#### What it does
+
+- **Projects and clients:** track work, clients and status in one dashboard
+- **Finances and investments:** income, expenses and an investments portfolio
+- **Project timer with billing estimate:** track time and see what a project is worth
+- **Executive KPI dashboard:** the key numbers of a freelance business at a glance
+
+#### Under the hood
+
+- **Two clients, one backend:** React 19 + Vite + TypeScript web app and a native PyQt6 desktop client, both on the same Supabase backend
+- **Security first:** Supabase Auth with an email allowlist and Row Level Security on every table
+- **Versioned SQL migrations** for a reproducible database schema
+- **Schema validation** with Zod on the frontend
+
+#### Stack
 
 `React 19` `TypeScript` `Vite` `Zod` `PyQt6` `Supabase` `Render`
 
 [![Repo](https://img.shields.io/badge/View_repository-181717?style=flat-square&logo=github)](https://github.com/mohamedsillahhh-cloud/DevFlow)
-
-</details>
-
-<details>
-<summary><b>🏫 School Website + CMS</b> &nbsp;·&nbsp; <code>private</code> &nbsp;·&nbsp; live in production</summary>
-
-<br>
-
-- Institutional website with a custom CMS for a public technical school in Cape Verde
-- CMS built for non-technical staff
-
-`Python` `Flask` `PostgreSQL` `Supabase`
-
-[Live](https://etjv.onrender.com)
-
-</details>
-
-### Community
-
-<details>
-<summary><b>🎮 Discord Bots & Community Tooling</b> &nbsp;·&nbsp; Cape Verdean gaming communities</summary>
-
-<br>
-
-- Official developer and staff of **Gameplay CV**: server architecture, forum channels, bot configuration
-- **GAME HUB**: custom bot with a Components V2 UI design system, consolidating several bots into one
-- Custom Minecraft plugin for the community's survival server, with a security audit and fixes
-- Moderator on the Discord server of a large Free Fire content creator
-
-`Discord API` `Discord.js` `Components V2` `Python`
 
 </details>
 
@@ -193,17 +194,22 @@ Most of my work is for Cape Verdean users and communities: finance tools, remitt
 
 ---
 
-<details>
-<summary><b>📊 GitHub Stats</b></summary>
-
-<br>
+## 📊 Activity
 
 <div align="center">
   <img height="160" src="https://github-readme-stats.shion.dev/api?username=mohamedsillahhh-cloud&theme=dark&hide_border=true&include_all_commits=true&count_private=true&show_icons=true" />
   <img height="160" src="https://github-readme-stats.shion.dev/api/top-langs/?username=mohamedsillahhh-cloud&theme=dark&hide_border=true&include_all_commits=true&count_private=true&layout=compact" />
 </div>
 
-</details>
+<br>
+
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mohamedsillahhh-cloud/mohamedsillahhh-cloud/output/github-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mohamedsillahhh-cloud/mohamedsillahhh-cloud/output/github-snake.svg" />
+    <img alt="Contribution graph with a snake eating the contributions" src="https://raw.githubusercontent.com/mohamedsillahhh-cloud/mohamedsillahhh-cloud/output/github-snake.svg" />
+  </picture>
+</div>
 
 ---
 
